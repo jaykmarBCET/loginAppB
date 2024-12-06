@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "nodemon index.js",
-    "build": "echo \"Specify your build command here\"",
+    "start": "node index.js",
+    "build": "echo \"No build step necessary\"",
     "vercel-build": "npm run build"
   },
   "author": "",
