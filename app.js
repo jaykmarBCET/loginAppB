@@ -20,4 +20,8 @@ app.use(cookieParser())
 
 app.use("/api/v1/users",router)
 
+app.get('/',(req,res)=>{
+    return res.send({message:"Server runing successfully"})
+})
+
 export { app}
