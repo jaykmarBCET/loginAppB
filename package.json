@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nodemon indxe.js"
+    "test": "nodemon index.js",
+    "build": "echo 'Specify your build command here'", // Placeholder for your build command
+    "vercel-build": "npm run build" // Aliasing the build command for Vercel
   },
   "author": "",
   "license": "ISC",
